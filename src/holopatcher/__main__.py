@@ -45,7 +45,7 @@ from pathlib import Path  # noqa: E402  # noqa: E402, F401
 
 from holopatcher import core  # noqa: E402, F401
 from loggerplus import RobustLogger  # noqa: E402  # noqa: E402, F401
-from utility.system.app_process.shutdown import (
+from utility.system.process import (
     terminate_main_process,  # noqa: E402  # noqa: E402, F401  # noqa: E402, F401
 )
 
