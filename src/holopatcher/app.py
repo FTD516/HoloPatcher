@@ -81,8 +81,8 @@ from pykotor.tslpatcher.patcher import ModInstaller  # noqa: E402
 from pykotor.tslpatcher.reader import ConfigReader, NamespaceReader  # noqa: E402
 from pykotor.tslpatcher.uninstall import ModUninstaller  # noqa: E402
 from utility.gui.tkinter.base_app import BaseApp  # noqa: E402
-from utility.gui.tkinter.tooltip import ToolTip  # noqa: E402
-from utility.gui.tkinter.updater import TkProgressDialog  # noqa: E402
+from utility.tkinter.tooltip import ToolTip  # noqa: E402
+from utility.tkinter.updater import TkProgressDialog  # noqa: E402
 from utility.misc import ProcessorArchitecture  # noqa: E402
 from utility.string_util import striprtf  # noqa: E402
 from utility.system.os_helper import win_get_system32_dir  # noqa: E402
